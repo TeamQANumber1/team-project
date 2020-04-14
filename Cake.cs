@@ -9,6 +9,7 @@ namespace Shop
         public Cake()
         {
             price = 13;
+            expDate = 2;
         }
     }
 }
