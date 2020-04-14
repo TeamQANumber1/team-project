@@ -6,11 +6,11 @@ namespace Shop
 {
     public class Buyer
     {
+        public List<Products> _productList = new List<Products>();
         public int _cash;
-        public List<Products> _productsList = new List<Products>();
         public Buyer(List<Products> productList, int cash)
         {
-            this._productsList = productList;
+            this._productList = productList;
             this._cash = cash;
         }
     }
